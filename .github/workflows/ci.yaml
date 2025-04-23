@@ -1,4 +1,4 @@
-name: CI/CD Workflow
+name: Linters
 
 on:
   push:
@@ -8,9 +8,12 @@ on:
     branches:
       - "main"
 
+permissions:
+  contents: read
+
 jobs:
   eslint:
-    name: ESLint
+    name: TypeScript & ESLint
     runs-on: ubuntu-latest
 
     steps:
@@ -20,9 +23,9 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: lts/*
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: npm i
 
       - name: Run ESLint
