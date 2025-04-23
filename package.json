@@ -10,6 +10,7 @@
   },
   "description": "Courses recordings scraper",
   "devDependencies": {
+    "esbuild": "^0.25.3",
     "eslint": "^9.25.1",
     "eslint-config-imperium": "^2.2.0",
     "husky": "^9.1.7",
@@ -28,7 +29,8 @@
     "url": "https://github.com/Delemangi/recordings-scraper.git"
   },
   "scripts": {
-    "build": "rimraf dist && tsc",
+    "build": "npm run clean && node esbuild.config.js",
+    "clean": "rimraf dist",
     "format": "eslint . --cache --fix",
     "lint": "tsc --noEmit && eslint . --cache",
     "prepare": "husky",
