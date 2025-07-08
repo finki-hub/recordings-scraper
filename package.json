@@ -6,7 +6,7 @@
   "dependencies": {
     "puppeteer": "^24.11.2",
     "winston": "^3.17.0",
-    "zod": "^3.25.74"
+    "zod": "^3.25.75"
   },
   "description": "Courses recordings scraper",
   "devDependencies": {
