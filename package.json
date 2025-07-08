@@ -10,7 +10,7 @@
   },
   "description": "Courses recordings scraper",
   "devDependencies": {
-    "esbuild": "^0.25.5",
+    "esbuild": "^0.25.6",
     "eslint": "^9.30.1",
     "eslint-config-imperium": "^2.4.0",
     "husky": "^9.1.7",
