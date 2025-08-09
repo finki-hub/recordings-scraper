@@ -26,7 +26,7 @@ const sessions = await page.$$eval(sessionSelector, (elements) =>
 );
 const course = await page.$eval(
   courseSelector,
-  (element) => element.textContent ?? 'Unknown',
+  (element) => element.textContent,
 );
 const courseFileName = course.replaceAll(/[\\/]/gu, '-');
 const log: string[] = [];
@@ -60,7 +60,7 @@ for (const session of sessions) {
   for (const link of links) {
     await page.goto(link);
 
-    log.push(`${title?.trim()},${page.url()}`);
+    log.push(`${title.trim()},${page.url()}`);
   }
 }
 
