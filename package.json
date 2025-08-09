@@ -13,7 +13,6 @@
     "esbuild": "^0.25.8",
     "eslint": "^9.33.0",
     "eslint-config-imperium": "^2.7.0",
-    "husky": "^9.1.7",
     "rimraf": "^6.0.1",
     "typescript": "~5.9.2"
   },
@@ -33,7 +32,6 @@
     "clean": "rimraf dist",
     "format": "eslint . --cache --fix",
     "lint": "tsc --noEmit && eslint . --cache",
-    "prepare": "husky",
     "start": "node dist/main.js"
   },
   "type": "module",
