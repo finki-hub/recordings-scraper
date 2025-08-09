@@ -6,13 +6,13 @@
   "dependencies": {
     "puppeteer": "^24.16.0",
     "winston": "^3.17.0",
-    "zod": "^4.0.15"
+    "zod": "^4.0.16"
   },
   "description": "Courses recordings scraper",
   "devDependencies": {
     "esbuild": "^0.25.8",
-    "eslint": "^9.32.0",
-    "eslint-config-imperium": "^2.5.1",
+    "eslint": "^9.33.0",
+    "eslint-config-imperium": "^2.7.0",
     "husky": "^9.1.7",
     "rimraf": "^6.0.1",
     "typescript": "~5.9.2"
