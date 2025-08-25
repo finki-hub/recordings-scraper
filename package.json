@@ -11,7 +11,7 @@
   "description": "Courses recordings scraper",
   "devDependencies": {
     "esbuild": "^0.25.9",
-    "eslint": "^9.33.0",
+    "eslint": "^9.34.0",
     "eslint-config-imperium": "^2.7.0",
     "rimraf": "^6.0.1",
     "typescript": "~5.9.2"
