@@ -17,7 +17,7 @@
     "typescript": "~5.9.3"
   },
   "engines": {
-    "node": "^20 || ^22"
+    "node": "^20 || ^22 || ^24"
   },
   "homepage": "https://github.com/Delemangi/recordings-scraper",
   "license": "MIT",
@@ -25,7 +25,7 @@
   "name": "courses-recordings-scraper",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Delemangi/recordings-scraper.git"
+    "url": "git+https://github.com/Delemangi/recordings-scraper.git"
   },
   "scripts": {
     "build": "npm run clean && node esbuild.config.js",
