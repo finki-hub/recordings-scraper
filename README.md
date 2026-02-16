@@ -1,4 +1,4 @@
-# Courses Recordings Scraper
+# FINKI Hub / Recordings Scraper
 
 Use this to get the links of all recordings within a Courses (Moodle) course, and generates a screenshot of the entire course.
 
